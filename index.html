@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Cart Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>ALL Items</h1>
+        <button class="bigg_btn" id="bigg_btn">Item <span id="itemsAdded"> </span> is added to cart</button> 
+    </header>
+    <section class="cart"> 
+    <div class="product_thumbnail" id="product_thumbnail">
+    <!-- fetch API ajax  -->
+    </div>
+    <div class="cart_total">
+        <div class="items" >
+            <div class="title">
+               <h5 id="hItems">Item</h5>
+               <h5 id="hQty">Qty</h5>  
+               <h5 id="hPrice">Price</h5>
+            </div>
+        <div class="items-container" id="items-container">
+            <div id="products_list" >
+                <!-- <div class="productTocart">
+                <div id="product_title">
+                    product name
+                </div>
+                <div> 
+                    -
+                    <input type="text" id="qty">
+                    +
+                </div>
+
+                <div class="product_price">
+                    $50
+                </div>
+            </div> -->
+            </div>
+
+          
+            <div class="total_price">
+                <h3>Total</h3>
+               <div class="total_items">
+                <p id="total_items">Items<span id="amoutItems"></span>:</p>
+                <p id="total_value">$0</p>
+               </div>
+            </div>
+
+
+            <div class="total_discount">
+                <p>Discount :</p>
+              
+                <p id="total_discount" >-$0</p>
+            </div>
+            
+            <div class="discount_type">
+                <p>Type Discount :</p>
+          
+                <p id="type_discount" >-$0</p>
+            </div>
+
+            <div class="order_total">
+                <p>order Total:</p>
+          
+                <p id="total_amout" >-$0</p>
+            </div>
+        </div>    
+        </div>
+       
+    </div>
+</section>
+<script src="./script.js"></script>
+</body>
+</html>
